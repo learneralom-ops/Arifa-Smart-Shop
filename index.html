@@ -263,7 +263,7 @@ footer{
       const end = new Date(t.dataset.time).getTime();
       const now = Date.now();
       const d = end - now;
-      if (d <= 0) { t.innerText = "অফারের সময় শেষ"; return; }
+      if (d <= 0) { t.innerText = ""; return; }
       const h = Math.floor(d / 3600000);
       const m = Math.floor(d % 3600000 / 60000);
       const s = Math.floor(d % 60000 / 1000);
