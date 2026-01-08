@@ -45,8 +45,4 @@ The project uses Firebase for:
 1. **Clone or download** the project files
 2. **Open `index.html`** in a web browser to start the user side
 3. **Open `admin.html`** to access the admin panel
-4. **Admin credentials**:
-   - Username: `admin`
-   - Password: `admin123`
-
 ## File Structure
